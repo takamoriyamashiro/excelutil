@@ -37,11 +37,23 @@ class ExcelUtil
 		'Z' => 26
 	];
 	
+	
 	public static function getIndex($cellName)
 	{
-		
-		
+		$cellNameArray = str_split($cellName);
+		$result = 0;
+		$param = 1;
+		while(count($cellNameArray)){
+			$cell = array_pop($cellNameArray);
+			$cell = strtoupper($cell);
+			$idx = (self::INDEXES[$cell]) ?:false;
+			if(!$idx) return false;
+			$result += (int) $idx * $param;
+			$param*=26;
+		}
+		return $result;		
 	}
+	
 	
 	public static function getCellName($index)
 	{
