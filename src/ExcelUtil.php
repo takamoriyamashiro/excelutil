@@ -1,6 +1,6 @@
 <?php
 
-namespace takamoriyamashiro\ExcelUtil;
+namespace yamaaaaaa\ExcelUtil;
 
 class ExcelUtil
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace takamoriyamashiro\ExcelUtil\Tests;
+namespace yamaaaaaa\ExcelUtil\Tests;
 
 use PHPUnit\Framework\TestCase;
-use takamoriyamashiro\ExcelUtil\ExcelUtil;
+use yamaaaaaa\ExcelUtil\ExcelUtil;
 
 class ExcelUtilTest extends TestCase
 {

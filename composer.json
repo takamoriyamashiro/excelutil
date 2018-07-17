@@ -1,10 +1,10 @@
 {
-    "name": "takamoriyamashiro/excelutil",
+    "name": "yamaaaaaa/excelutil",
     "description": "utility for excel",
     "keywords":["excel","utility"],
     "type":"library",
     "license": "MIT",
-    "homepage": "https://github.com/takamoriyamashiro/excelutil.git",
+    "homepage": "https://github.com/yamaaaaaa/excelutil.git",
     "authors": [
         {
             "name": "Takamori Yamashiro",
@@ -19,8 +19,8 @@
     },
     "autoload": {
         "psr-4": {
-            "takamoriyamashiro\\ExcelUtil\\": "src/",
-            "takamoriyamashiro\\ExcelUtil\\Tests\\": "test/"
+            "yamaaaaaa\\ExcelUtil\\": "src/",
+            "yamaaaaaa\\ExcelUtil\\Tests\\": "test/"
         }
     }
 }
